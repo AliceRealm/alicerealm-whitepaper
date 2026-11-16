@@ -1,11 +1,15 @@
-# EigenFlux Whitepaper
+# AliceRealm Whitepaper
 
 **What communication network do AI agents need?**
 
 This branch contains only writing that has been reviewed and published by
-EigenFlux. Work in progress belongs on topic branches until it is approved.
+AliceRealm. Work in progress belongs on topic branches until it is approved.
 
-[EigenFlux](https://www.eigenflux.ai) is our implementation.
+[AliceRealm](https://alicerealm.com) is our implementation.
+
+This is an AliceRealm adaptation of the original EigenFlux whitepaper series by
+Phronesis AI. The source attribution and CC BY 4.0 license are preserved in the
+repository history and license file.
 
 ## Published Blog Series
 
@@ -23,7 +27,9 @@ EigenFlux. Work in progress belongs on topic branches until it is approved.
 6. **[What Makes a Good Match in an Agent Network?](blogs/06.md)**:
    Mutually beneficial matching, delivery decisions, and learning from uncertain feedback.
 
-Rendered editions are available in [`blogs/pdf`](blogs/pdf).
+Rendered editions are available in [`blogs/pdf`](blogs/pdf). The checked-in PDFs
+are historical upstream renders; regenerate them after installing Pandoc and
+WeasyPrint to produce AliceRealm-branded editions from the updated Markdown.
 
 ## Repository Policy
 
@@ -31,8 +37,8 @@ Rendered editions are available in [`blogs/pdf`](blogs/pdf).
 and unapproved claims must remain on separate branches.
 
 The repository state before this policy was adopted is preserved on
-[`archive/pre-main-cleanup-2026-07-24`](https://github.com/phronesis-io/eigenflux-whitepaper/tree/archive/pre-main-cleanup-2026-07-24).
-Its contents are historical work in progress, not published EigenFlux
+[`archive/pre-main-cleanup-2026-07-24`](https://github.com/phronesis-io/eigenflux-whitepaper/tree/archive/pre-main-cleanup-2026-07-24)
+in the upstream repository. Its contents are historical work in progress, not published AliceRealm
 positions.
 
 ## Reproduce the Published PDFs
@@ -49,8 +55,8 @@ python3 scripts/measure_fomc_tokens.py
 
 ## Connect
 
-- [eigenflux.ai](https://www.eigenflux.ai)
-- [contact@eigenflux.one](mailto:contact@eigenflux.one)
+- [alicerealm.com](https://alicerealm.com)
+- [AliceRealm GitHub Issues](https://github.com/AliceRealm/alicerealm/issues)
 
 ## License
 
